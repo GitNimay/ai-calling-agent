@@ -1,0 +1,42 @@
+# Core web framework
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+
+# Environment config
+python-dotenv==1.0.1
+pydantic==2.10.0
+pydantic-settings==2.6.0
+
+# Google Gemini API
+google-genai==0.2.2
+
+# Voice agent framework (using Pipecat - simpler for Gemini integration)
+pipecat-ai==0.0.49
+
+# Audio processing
+soundfile==0.12.1
+numpy==1.26.4
+librosa==0.10.1
+
+# WebSocket support
+websockets==13.1
+
+# Telephony (for Phase 5)
+twilio==9.3.7
+
+# Testing
+pytest==8.3.3
+pytest-asyncio==0.24.0
+httpx==0.27.2
+
+# ========================================
+# OPTIONAL: Open-Source Voice Pipeline
+# ========================================
+# Uncomment these if you want to use the open-source voice pipeline
+# Note: Requires Python <3.12
+
+# STT - Whisper (optional)
+# faster-whisper==1.0.3
+
+# TTS - Coqui (optional, requires Python <3.12)
+# TTS>=0.22.0
